@@ -2,12 +2,16 @@
 
 /* appearance */
 static const unsigned int borderpx  = 2;        /* border pixel of windows */
-static const unsigned int gappx     = 5;        /* gap between windows*/
 static const unsigned int snap      = 32;       /* snap pixel */
+static const unsigned int gappih    = 20;       /* inner horiz gap */
+static const unsigned int gappiv    = 10;       /* inner vert gap */
+static const unsigned int gappoh    = 10;       /* outer horiz gap */
+static const unsigned int gappov    = 30;       /* outer vert gap */
+static const int smartgaps          = 0;        /* 1 means !outer gap w/ only 1 window  */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=10" };
-static const char dmenufont[]       = "monospace:size=10";
+static const char *fonts[]          = { "monospace:size=20" };
+static const char dmenufont[]       = "monospace:size=20";
 static const char col_gray1[]       = "#111111"; /*tag background*/
 static const char col_gray2[]       = "#900000"; /*window borders*/ 
 static const char col_gray3[]       = "#ff0000"; /*tag color*/
