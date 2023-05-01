@@ -8,9 +8,9 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "monospace:size=20" };
 static const char dmenufont[]       = "monospace:size=20";
-static unsigned int baralpha        = 0xd0;
+static unsigned int baralpha        = 0xa0;
 static unsigned int borderalpha     = OPAQUE;
-static const char col_gray1[]       = "#111111"; /*tag background*/
+static const char col_gray1[]       = "#000000"; /*tag background*/
 static const char col_gray2[]       = "#004400"; /*window borders*/ 
 static const char col_gray3[]       = "#004400"; /*tag color*/
 static const char col_gray4[]       = "#000000"; /*location color*/
