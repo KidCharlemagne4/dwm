@@ -3,7 +3,7 @@
 /* appearance */
 static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
-static const unsigned int gappx     = 10;        /* gap between windows */
+static const unsigned int gappx     = 25;        /* gap between windows */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "monospace:size=20" };
@@ -11,10 +11,10 @@ static const char dmenufont[]       = "monospace:size=20";
 static unsigned int baralpha        = 0xa0;
 static unsigned int borderalpha     = OPAQUE;
 static const char col_gray1[]       = "#000000"; /*tag background*/
-static const char col_gray2[]       = "#004400"; /*window borders*/ 
-static const char col_gray3[]       = "#004400"; /*tag color*/
+static const char col_gray2[]       = "#660000"; /*window borders*/ 
+static const char col_gray3[]       = "#660000"; /*tag color*/
 static const char col_gray4[]       = "#000000"; /*location color*/
-static const char col_cyan[]        = "#004400"; /*dwm border/background*/
+static const char col_cyan[]        = "#660000"; /*dwm border/background*/
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -22,7 +22,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX" };
+static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
 static const Rule rules[] = {
 	/* xprop(1):
